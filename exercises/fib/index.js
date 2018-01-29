@@ -9,7 +9,7 @@
 //   fib(4) === 3
 
 function fib(n) {
-  return n.split('').reverse().join('');
+
 }
 
 module.exports = fib;
