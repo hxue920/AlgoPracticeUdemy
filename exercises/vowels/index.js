@@ -9,7 +9,7 @@
 
 function vowels(str) {
   let result = str.match(/[aeiou]/gi);
-  return result === null ? 0 : result.length;
+  return result ? result.length : 0;
 }
 
 module.exports = vowels;
